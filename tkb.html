@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo thời khoá biểu</title>
+</head >
+<body>
+    <form action="">
+    <h1>Tạo thời khoá biểu</h1>
+    <button type="submit" style="background-color:lightgreen;">Tạo</button>
+    <button type="reset" style="background-color:darksalmon;">Huỷ</button>
+    <table>
+        <tr>
+            <td>Lớp: </td>
+            <td><input type="text" name="class" id='class' placeholder='Nhập tên lớp' style="background-color: blanchedalmond;"></td>
+            <td>Thời gian học: </td>
+            <td>
+                <select name='time' id='time'>
+                    <option>1h-2h</option>
+                    <option>2h-3h</option>
+                    <option>4h-5h</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>Giáo viên: </td>
+            <td><input type='text' name='teacher' id='teacher' placeholder="Nhập tên giáo viên" style="background-color:blanchedalmond;"></td>
+            <td>Ngày học: </td>
+            <td><input type='radio' name='le' id='le'><span>Thứ 3, 5, 7</span>
+                <br>
+                <input type="radio" name='chan' id='chan'><span>Thứ 2, 4, 6</span>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>Phòng học: </td>
+            <td>
+                <select name='class' id='class'>
+                    <option>A1</option>
+                    <option>A2</option>
+                    <option>B1</option>
+                    <option>B2</option>
+            </td>
+            <td>Mật khẩu phòng: </td>
+            <td><input name='password' id='password' type="password" placeholder="Nhập mật khẩu" style="background-color: blanchedalmond;"></td>
+        </tr>
+    </table>    
+    </form>
+
+<table border="1">
+    <tr>
+        <th colspan="3" style="background-color: lightsalmon;"></th>
+        <th style="background-color:cornsilk;">Thứ 3</th>
+        <th style="background-color: cornsilk;">Thứ 5</th>
+        <th style="background-color: cornsilk;">Thứ 7</th>
+    </tr>
+    <tr>
+        <th style="background-color: lemonchiffon;">Tuần</th>
+        <th style="background-color: lemonchiffon;">Ngày bắt đầu</th>
+        <th style="background-color: lemonchiffon;">Ngày kết thúc</th>
+        <th colspan="3" style="background-color: lemonchiffon;">Môn học</th>
+    </tr>
+    <tr>
+        <td style="background-color: coral;">01 </td>
+        <td><input type="text" name='date' id='date' placeholder="Ngày Tháng Năm" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name="date" id='date' placeholder="Ngày Tháng Năm" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name='subject1' id='subject1' placeholder="Môn học 1" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name='subject2' id='subject2' placeholder="Môn học 2" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name='subject3' id='subject3' placeholder="Môn học 3" style="background-color: blanchedalmond;"></td>
+    </tr>
+    <tr>
+        <td style="background-color: coral;">02 </td>
+        <td><input type="text" name='date' id='date' placeholder="Ngày Tháng Năm" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name="date" id='date' placeholder="Ngày Tháng Năm" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name='subject1' id='subject1' placeholder="Môn học 1" style='background-color: blanchedalmond;'></td>
+        <td><input type="text" name='subject2' id='subject2' placeholder="Môn học 2" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name='subject3' id='subject3' placeholder="Môn học 3" style="background-color: blanchedalmond;"></td>
+    </tr>
+    <tr>
+        <td style="background-color: coral;">03 </td>
+        <td><input type="text" name='date' id='date' placeholder="Ngày Tháng Năm" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name="date" id='date' placeholder="Ngày Tháng Năm" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name='subject1' id='subject1' placeholder="Môn học 1" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name='subject2' id='subject2' placeholder="Môn học 2" style="background-color: blanchedalmond;"></td>
+        <td><input type="text" name='subject3' id='subject3' placeholder="Môn học 3" style="background-color: blanchedalmond;"></td>
+    </tr>
+</table>
+</body>
+</html>
